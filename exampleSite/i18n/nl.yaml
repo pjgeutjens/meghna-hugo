@@ -1,27 +1,27 @@
 - id: blogTitle
-  translation: Latest Post
+  translation: Laatste post
 - id: readMore
-  translation: Read more
+  translation: Meer info
 - id: viewAllPost
-  translation: View All Posts
+  translation: Alle artikels
 - id: share
-  translation: Share
+  translation: Delen
 - id: aboutAuthor
-  translation: About author
+  translation: Over de auteur
 - id: authorsPosts
-  translation: Author's posts
+  translation: Artikels van deze auteur
 - id: all
-  translation: All
+  translation: Alle
 - id: about
-  translation: About Us
+  translation: Over
 - id: services
-  translation: Service
+  translation: Diensten
 - id: portfolio
   translation: Portfolio
 - id: team
   translation: Team
 - id: pricing
-  translation: Pricing
+  translation: Prijzen
 - id: blog
   translation: Blog
 - id: contact

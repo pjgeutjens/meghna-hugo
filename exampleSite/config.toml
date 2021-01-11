@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
+baseURL = "https://link4vets-dev.netlify.app"
+title = "Link4Vets"
 theme = "meghna-hugo"
 themesDir = "../.."
 # post pagination
@@ -55,94 +55,46 @@ url = "services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "portfolio"
-pre = "#"
-url = "portfolio"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "team"
-pre = "#"
-url = "team"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "pricing"
-pre = "#"
-url = "pricing"
-weight = 5
-
-[[Languages.en.menu.main]]
 name = "blog"
 pre = "#"
 url = "blog"
-weight = 6
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "contact"
 pre = "#"
 url = "contact"
-weight = 7
-
-[[Languages.en.menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 8
+weight = 4
 
 
-################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
+################### Dutch Navigation ########################
+[[Languages.nl.menu.main]]
+name = "over ons"
 pre = "#"
 url = "about"
 weight = 1
 
-[[Languages.fr.menu.main]]
-name = "un service"
+[[Languages.nl.menu.main]]
+name = "diensten"
 pre = "#"
 url = "services"
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-pre = "#"
-url = "portfolio"
-weight = 3
-
-[[Languages.fr.menu.main]]
-name = "équipe"
-pre = "#"
-url = "team"
-weight = 4
-
-[[Languages.fr.menu.main]]
-name = "tarification"
-pre = "#"
-url = "pricing"
-weight = 5
-
-[[Languages.fr.menu.main]]
+[[Languages.nl.menu.main]]
 name = "blog"
 pre = "#"
 url = "blog"
-weight = 6
+weight = 3
 
-[[Languages.fr.menu.main]]
+[[Languages.nl.menu.main]]
 name = "contact"
 pre = "#"
 url = "contact"
-weight = 7
-
-[[Languages.fr.menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 8
+weight = 4
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/l4vlogo.jpg"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
@@ -154,7 +106,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo.png"
+preloader = "images/l4vlogo.jpg"
 
 # cookies
 [params.cookies]
@@ -202,13 +154,13 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020"
 
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+################################ Dutch Language ########################
+[Languages.nl]
+languageName = "Nl"
+languageCode = "nl-be"
+contentDir = "content/dutch"
 weight = 2
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+home = "Home"
+copyright = "Copyright &copy; 2020"
