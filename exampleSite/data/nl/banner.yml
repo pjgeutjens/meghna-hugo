@@ -4,8 +4,8 @@ banner:
   bg_image_webp : "images/backgrounds/pup1_web.webp"
   bg_image : "images/backgrounds/pup1_web.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Experience the new reality"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+  title : "Link4Vets"
+  content : "Een Professioneel Platform voor en door Dierenartsen."
   button:
     enable : true
     label : "Onze Diensten"
