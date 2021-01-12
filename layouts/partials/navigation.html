@@ -14,10 +14,14 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navigation">
+        {{ site.BaseURL }}
+        {{ site.BaseURL | absLangURL }}
+        {{ .Pre }}
+        {{ .URL }}
 				<ul class="navbar-nav ml-auto">
 					{{ range site.Menus.main }}
 					<li class="nav-item">
-            <a class="nav-link" href="{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+            <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
 					</li>
 					{{ end }}
 				</ul>
