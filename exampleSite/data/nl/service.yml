@@ -1,7 +1,7 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Services
+  title : Onze Diensten
   service_item :
     # service item loop
     - name : Puppy Database
