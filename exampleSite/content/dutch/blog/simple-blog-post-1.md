@@ -1,6 +1,6 @@
 ---
 title: Interview met VeDa
-date: 2021-01-05T23:00:00+00:00
+date: 2021-01-06T00:00:00+01:00
 image_webp: images/blog/blog-post-3.webp
 image: images/blog/blog-post-3.jpg
 author: Link4Vets
